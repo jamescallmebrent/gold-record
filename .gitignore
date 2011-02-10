@@ -1,5 +1,4 @@
 *.gem
-*.gemspec
 *.log
 *.pid
 *.rbc
@@ -8,3 +7,6 @@
 .DS_Store
 log/*
 pkg/*
+.bundle
+Gemfile.lock
+.rvmrc

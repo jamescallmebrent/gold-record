@@ -2,7 +2,7 @@ require 'active_record/connection_adapters/mysql_adapter'
 
 module ActiveRecord
   module ConnectionAdapters
-    class MysqlAdapter < AbstractAdapter
+    class Mysql2Adapter < AbstractAdapter
       
       # MySQL can store UUIDs in binary(16) instead of a blob column.
       def type_to_sql(type, limit = nil, precision = nil, scale = nil)
